@@ -30,3 +30,10 @@ int main(){
 
 
 }
+/**
+ * Iterative Method
+ * Time Complexity Analysis
+ * input size: N
+ *
+ * For any input, time complexity is THETA(N^2)
+ * */

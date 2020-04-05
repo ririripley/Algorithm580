@@ -10,6 +10,11 @@ void insertion(int nums[], int left, int right, int target) {
     int index;
     int _left = left;
     int _right = right;
+
+    /* Using Binary Search To Find Out the Position for the Newly Inserted Element. */
+    /**
+     * 可以用target 直接跟 left right 比从而在极端的情况下提高效率
+     */
     while (_right - _left > 1) {
         int mid = (_left + _right) / 2;
         if (nums[mid] > target) {
@@ -36,6 +41,7 @@ void insertion(int nums[], int left, int right, int target) {
 
 void InsertionSort(int nums[],int length){
     int left = 0;
+    /*Iterative Method*/
     for(int i = 1; i < length; i++){
         insertion(nums,left,i - 1, nums[i]);
     }
@@ -54,3 +60,15 @@ int main(){
 }
 
 // 检查 错漏的方法 ： check if condition 里面 是否漏了某种条件 （没有全包）
+/**
+ * Iterative Method
+ * Time Complexity Analysis
+ * input size: N
+ * InsertionSort 必定执行N - 1
+ * insertion 取决于找到位置的方法 从后往前比较 target值时：
+ *
+ * Best case:  already ordered
+ * theta(1)  * （N - 1) = THETA(N)
+ * Worst case:  reverse sorted
+ * theta(1) + theta(2) + ...... theta(N - 1) = THETA(N^2)
+ * */

@@ -60,7 +60,7 @@
       <workItem from="1583679238812" duration="42970000" />
       <workItem from="1584528118465" duration="18042000" />
       <workItem from="1584883696057" duration="6064000" />
-      <workItem from="1586047367340" duration="272000" />
+      <workItem from="1586047367340" duration="4757000" />
     </task>
     <servers />
   </component>
@@ -98,9 +98,21 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="362" y="37" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1584556974729" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584533829791">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="343" y="140" width="754" height="761" key="search.everywhere.popup" timestamp="1586097731671">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1584533829791" />
+    <state x="343" y="140" width="754" height="761" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586097731671" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BinarySearch.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

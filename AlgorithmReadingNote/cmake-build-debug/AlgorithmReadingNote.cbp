@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AlgorithmReadingNote"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AlgorithmReadingNote">
+				<Option output="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/AlgorithmReadingNote" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmReadingNote"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AlgorithmReadingNote/fast">
+				<Option output="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/AlgorithmReadingNote" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmReadingNote/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/huangzijun/CLionProjects/AlgorithmReadingNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/BinarySearch.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/BubbleSort.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Dynamic-Programming/Longest-increasing-sequence.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Dynamic-Programming/rod-cutting.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Graph/Bellford.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Graph/Dijkstra.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Graph/Kruskal.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Graph/Prime.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/InsertionSort.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/MergeSort.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/QuickSort.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Search/BFS_binary_tree.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Search/DFS-NQueen.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Search/Userdefined_hash_map.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Search/Using_hash_map.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Search/Using_priority_queue.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/Search/copydfs.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/SelectionSort.cpp">
+			<Option target="AlgorithmReadingNote"/>
+		</Unit>
+		<Unit filename="/Users/huangzijun/CLionProjects/AlgorithmReadingNote/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
